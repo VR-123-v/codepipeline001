@@ -12,7 +12,7 @@ public class HelloController {
     }
 
        @GetMapping("/message")
-    public String home() {
+    public String message() {
         return "Hello, second message from codepipeline!";
     }
 }
