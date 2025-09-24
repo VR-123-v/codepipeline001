@@ -10,4 +10,9 @@ public class HelloController {
     public String home() {
         return "Hello, CodePipeline!";
     }
+
+       @GetMapping("/message")
+    public String home() {
+        return "Hello, second message from codepipeline!";
+    }
 }
